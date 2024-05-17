@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    border: 5px solid gray;
+    height: 90vh;
+    /*flex-direction: column-reverse;
+    justify-content: space-between;
+    border: 5px solid gray;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-content:space-evenly;
+   column-gap: 4rem;
+   row-gap: 3rem;*/
+}
+.box{
+    width: 140px;
+    height: 120px;
+    font-size: 6rem;
+    color: azure;
+    text-align: center;
+    border-radius: 25%;
+}
+#box1{
+    background-color: rgb(206, 212, 116);
+    align-self: end;
+
+}
+#box2{
+    background-color: rgb(116, 140, 212);
+    align-self: center;
+}
+#box3{
+    background-color: rgb(212, 116, 150);
+    align-self: end;
+}
+#box4{
+    background-color: rgb(116, 212, 156);
+    align-self: first baseline;
+}
+#box5{
+    background-color: rgb(176, 123, 214);
+    align-self: end;
+}
+#box6{
+    background-color: rgb(44, 204, 188);
+}
